@@ -1,0 +1,225 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    min-width: 100%;
+   height: 100vh;
+   position: relative;
+}
+
+
+header{
+
+    width: 100%;
+    position: relative;
+
+}
+
+.temp-wrap{
+
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height:200px;
+  
+  justify-content: space-around;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+main{
+
+    height:100%;
+    width:auto;
+     background: url('https://gfycat.com/forcefulspiffyappaloosa');
+    background-position: center;
+    width:100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top-wrap{
+
+    display: flex;
+    align-items: center;
+    
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+ 
+  text-align: center;
+}
+
+.temp-range{
+
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+   
+   
+}
+main{
+
+    position: relative;
+}
+#temp{
+
+    font-weight: bolder;
+    font-size: 1.5em;
+   
+}
+
+#high-temp, #low-temp{
+
+    font-weight: bolder;
+}
+
+.temp-range p{
+
+   margin: 0 10px
+
+}
+
+#currentTime, #time1, #time2, #time3, #time4{
+    font-weight: 800;
+}
+
+
+
+
+.icon-wrap {
+
+display: flex;
+flex-direction: column;
+
+} 
+
+
+
+
+#decsription{
+
+    text-align: center;
+}
+
+footer{
+
+    position: relative;
+    bottom:0
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+   margin:0 auto;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+#Ihrs{
+
+    width:auto;
+   
+}
+
+#now p{
+
+ 
+    text-align: center;
+    
+}
+
+.card-body2{
+
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width:100%;
+    padding: 10px 0;
+}
+
+.card-body{
+
+    text-align: center;
+
+   
+
+}
+
+#scroll{
+
+    overflow: hidden;
+    text-align: center;
+  
+    align-items: center;
+    height: 30vh;
+    
+}
+
+.col-md-2 p{
+
+   
+   text-align: center;
+
+
+}
+
+.col-md-2 span{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  daily  */
+
+#daily{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width:100%;
+
+}
+
+#day1, #day2, #day3 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+   
+}
+
+#day1 p {
+
+    padding:20px
+
+    
+  
+ 
+}
+

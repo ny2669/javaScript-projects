@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Local Weather</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <!-- <header>
+            <div class="temp-wrap">
+              
+<h3 id="name"></h3>
+<div id="icon"></div>
+<p  id="description"></p>
+
+<div class="icon-wrap">
+  
+    <p id="temp"></p>
+</div>
+
+
+<div class="temp-range">
+    <p id="high-temp"></p>
+    <p id="low-temp">low temp</p>
+</div>            
+</div>
+
+        </header> -->
+
+        
+        <main>
+
+            <div class="card" id="card-top" >
+                <div class="card-body">
+                  <h5 class="card-title" id="title"></h5>
+                  <div class="icon-wrap">
+                  
+                  <p id="icon"></p>
+                  <p id="temp"></p>
+                  </div>
+                  <p  id="description"></p>
+                  <div class="temp-range">
+                    <p id="high-temp"></p>
+                    <p id="low-temp"></p>
+                </div>   
+                  
+                </div>
+                <div class="card-body2">
+                    <div class="container">
+
+                    </div>
+                    <div class="row" id="scroll ">
+                        <!-- current hour  -->
+
+                        <div class="col-md-2 offset-md-1">
+                            <div id="now">
+                                <p id="currentTime"> Now </p>
+                             <span id="Ihrs"></span>
+                            
+                            <span id="hrs0temp"></span>
+                             </div>
+                        </div>
+ <!-- 12pm  -->
+
+                        <div class="col-md-2">
+                            <p id="time1"> </p>
+                            <span id="Ihrs1"></span> 
+                            <span id="hrs1temp"></span>
+    
+                        </div>
+<!-- 1pm  -->
+                        <div class="col-md-2" id="hr1">
+                            <p id="time2"> </p>
+                            <span id="Ihrs2"></span>
+
+                            <span id="hrs2temp"></span>
+
+                        </div>
+                        <!-- 2pm  -->
+
+                        <div class="col-md-2" id="hr2">
+                            <p id="time3"> </p>
+                            <span id="Ihrs3"></span>
+
+                            <span id="hrs3temp"></span>
+                        </div>
+                        <div class="col-md-2" id="hr3">
+                            <p id="time4">  
+                
+                            </p>
+                            <span id="Ihrs4"></span>
+                            <span id="hrs4temp"></span>
+                        </div>
+                     
+                    </div>
+                  
+                
+                 
+                  </div>
+
+                  <div class="card-body3">
+                    <!-- <div class="row" id="daily"> -->
+                      <div class="col-md-6" id="day1">
+                       
+                      </div>
+                      <div class="col-md-2" id="day2">
+                          
+                      </div>
+                      <div class="col-md-2" id="day3">
+                          
+                      </div>
+                      <div class="col-md-2" id="day4">
+                          
+                      </div>
+    
+                    </div>
+    
+    
+                </div>
+
+
+              </div>
+
+              
+              
+
+
+           
+        </main>
+        <footer>
+<span>2021</span>
+        </footer>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./main.js" async defer></script>
+    </body>
+</html>
