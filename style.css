@@ -3,6 +3,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    color:white
 }
 
 body{
@@ -18,6 +19,12 @@ header{
     width: 100%;
     position: relative;
 
+}
+
+#title{
+
+    margin:50px;
+    padding-top: 50px;
 }
 
 .temp-wrap{
@@ -37,7 +44,7 @@ header{
 }
 main{
 
-    height:100%;
+    min-height:100vh;
     width:auto;
      background: url('https://gfycat.com/forcefulspiffyappaloosa');
     background-position: center;
@@ -64,6 +71,7 @@ background-size: cover;
     display: flex;
     flex-direction: row;
     margin: 10px 0;
+   justify-content: center;
    
    
 }
